@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 
-const API_URL = "http://www.omdbapi.com/?apikey=f44bcaf8";
-
+const API_URL = `${import.meta.env.VITE_OMDB_BASE_URL}/?apikey=${import.meta.env.VITE_OMDB_API_KEY}`;
 function MovieDetail() {
   const { id } = useParams();
   const [details, setDetails] = useState(null);

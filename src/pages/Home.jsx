@@ -2,8 +2,7 @@ import { useState, useEffect } from "react";
 import MovieCard from "../MovieCard";
 import SearchIcon from "../search.svg";
 
-const API_URL = "http://www.omdbapi.com/?apikey=f44bcaf8";
-
+const API_URL = `${import.meta.env.VITE_OMDB_BASE_URL}/?apikey=${import.meta.env.VITE_OMDB_API_KEY}`;
 function Home() {
   const [movies, setMovies] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
