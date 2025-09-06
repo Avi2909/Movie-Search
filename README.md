@@ -2,6 +2,9 @@
 
 A simple, responsive movie search app built with **React + Vite** and the **OMDb API**. Users can search movies, explore details, and navigate seamlessly with React Router.
 
+## 🚀 Live Demo  
+[https://earnest-lolly-78a506.netlify.app/](https://earnest-lolly-78a506.netlify.app/) 
+
 ---
 
 ## ✨ Features
